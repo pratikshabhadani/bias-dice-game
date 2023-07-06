@@ -7,7 +7,7 @@ def roll_dice(dice):
         return random.randint(1, 6)
     elif dice == 3:
         roll = random.randint(1, 100)
-        if roll <= 90:
+        if roll <= 30:
             return 3
         else:
             return random.randint(1, 6)
