@@ -64,8 +64,8 @@ def play_game(num_rolls):
         player2_roll = roll_dice(player2_dice)
         print(f"{player1_name} rolled a {player1_roll} with dice {player1_dice}")
         print(f"{player2_name} rolled a {player2_roll} with dice {player2_dice}")
-        player1_sum += player1_roll # type: ignore
-        player2_sum += player2_roll # type: ignore
+        player1_sum += player1_roll 
+        player2_sum += player2_roll 
         print(f"{player1_name} total score: {player1_sum}")
         print(f"{player2_name} total score: {player2_sum}")
         print()
